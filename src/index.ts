@@ -12,7 +12,7 @@ export * from './middlewares/validate-request';
 
 export * from './events/base-listener';
 export * from './events/base-publisher';
-export * from './events/TicketingApp/subjects';
+export * from './events/subjects';
 export * from './events/TicketingApp/ticket-created-event';
 export * from './events/TicketingApp/ticket-updated-event';
 

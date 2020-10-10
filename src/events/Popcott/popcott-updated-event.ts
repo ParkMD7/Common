@@ -4,6 +4,7 @@ import { PopcottCategory } from './types/popcott-category';
 export interface PopcottUpdatedEvent {
     subject: Subjects.PopcottUpdated;
     data: {
+        id: string;
         userId: string;
         createdAt: Date;
         // endsAt: Date;

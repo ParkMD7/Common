@@ -6,7 +6,7 @@ export interface PopcottUpdatedEvent {
     data: {
         userId: string;
         createdAt: Date;
-        endsAt: Date;
+        // endsAt: Date;
         title: string;
         category: PopcottCategory;
         likes: Array<[]>;

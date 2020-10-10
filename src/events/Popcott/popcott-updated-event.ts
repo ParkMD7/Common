@@ -5,10 +5,12 @@ export interface PopcottUpdatedEvent {
     subject: Subjects.PopcottUpdated;
     data: {
         userId: string;
+        createdAt: Date;
+        endsAt: Date;
         title: string;
-        type: PopcottCategory;
-        likes: number;
-        donationsReceived: number;
+        category: PopcottCategory;
+        likes: Array<[]>;
+        donations: Array<[]>;
         supporters: Array<[]>;
         comments: Array<[]>;
     };

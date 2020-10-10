@@ -1,3 +1,5 @@
+
+export * from './events/subjects';
 export * from './errors/bad-request-error';
 export * from './errors/custom-error';
 export * from './errors/database-connection-error';
@@ -12,7 +14,17 @@ export * from './middlewares/validate-request';
 
 export * from './events/base-listener';
 export * from './events/base-publisher';
-export * from './events/subjects';
+
+// Popcott
+export * from './events/Popcott/popcott-created-event';
+export * from './events/Popcott/popcott-updated-event';
+export * from './events/Popcott/types/popcott-category';
+
+
+
+
+// Ticketing App
+
 export * from './events/TicketingApp/ticket-created-event';
 export * from './events/TicketingApp/ticket-updated-event';
 
@@ -21,5 +33,4 @@ export * from './events/TicketingApp/order-created-event';
 export * from './events/TicketingApp/order-cancelled-event';
 
 export * from './events/TicketingApp/expiration-complete-event';
-
 export * from './events/TicketingApp/payment-created-event';

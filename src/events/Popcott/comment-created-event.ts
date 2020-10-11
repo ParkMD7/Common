@@ -13,7 +13,7 @@ export interface CommentCreatedEvent {
             version: number;
             createdAt: string;
             title: string;
-            comments: Array<[]>;
+            comments: Array<[any]>;
         };
     };
 }

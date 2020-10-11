@@ -19,6 +19,7 @@ export * from './events/base-publisher';
 export * from './events/Popcott/popcott-created-event';
 export * from './events/Popcott/popcott-updated-event';
 export * from './events/Popcott/types/popcott-category';
+export * from './events/Popcott/comment-created-event';
 
 
 

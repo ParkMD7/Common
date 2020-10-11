@@ -13,6 +13,6 @@ export interface PopcottUpdatedEvent {
         likes?: Array<[]>;
         donations?: Array<[]>;
         supporters?: Array<[]>;
-        comments?: Array<[]>;
+        comments?: Array<any>;
     };
 }

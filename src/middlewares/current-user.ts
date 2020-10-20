@@ -4,6 +4,7 @@ import jwt from 'jsonwebtoken';
 interface UserPayload {
     id: string;
     email: string;
+    userName: string;
 }
 
 // add the currentUser property (which may or may not be defined) to the Request type

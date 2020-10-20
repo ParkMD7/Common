@@ -16,4 +16,4 @@ export interface CommentCreatedEvent {
             comments: Array<any>;
         };
     };
-}
+};

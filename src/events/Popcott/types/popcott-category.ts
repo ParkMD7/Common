@@ -3,4 +3,5 @@ export enum PopcottCategory {
     Political = 'political',
     Equality = 'equality',
     None = 'none',
-}
+    Social = 'social',
+};

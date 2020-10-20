@@ -9,10 +9,12 @@ export interface PopcottUpdatedEvent {
         createdAt: Date;
         // endsAt: Date;
         title: string;
+        image: string;
         category?: PopcottCategory;
         likes?: Array<any>;
         donations?: Array<any>;
         supporters?: Array<any>;
         comments?: Array<any>;
+        version: number;
     };
-}
+};

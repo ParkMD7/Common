@@ -6,6 +6,7 @@ export interface CommentCreatedEvent {
         id: string;
         version: number;
         userId: string;
+        userName: string;
         body: string;
         popcott: {
             id: string;

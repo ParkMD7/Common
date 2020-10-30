@@ -11,4 +11,5 @@ export enum Subjects {
     PopcottCreated = 'popcott:created',
     PopcottUpdated = 'popcott:updated',
     CommentCreated = 'comment:created',
+    DonationCreated = 'donation:created',
 }

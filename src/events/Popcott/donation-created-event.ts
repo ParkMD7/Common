@@ -8,10 +8,6 @@ export interface DonationCreatedEvent {
         userName: string;
         amount: number;
         stripeId: string;
-        popcott: {
-            id: string;
-            userId: string;
-            version: number;
-        };
+        popcottId: string;
     };
 };

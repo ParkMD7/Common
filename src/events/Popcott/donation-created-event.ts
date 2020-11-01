@@ -13,9 +13,6 @@ export interface DonationCreatedEvent {
             id: string;
             userId: string;
             version: number;
-            createdAt: string;
-            title: string;
-            donations: Array<any>;
         };
     };
 };

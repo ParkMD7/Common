@@ -21,6 +21,8 @@ export * from './events/Popcott/popcott-updated-event';
 export * from './events/Popcott/types/popcott-category';
 export * from './events/Popcott/comment-created-event';
 export * from './events/Popcott/donation-created-event';
+export * from './events/Popcott/supporter-created-event';
+export * from './events/Popcott/supporter-deleted-event';
 
 
 

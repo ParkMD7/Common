@@ -13,4 +13,5 @@ export enum Subjects {
     CommentCreated = 'comment:created',
     DonationCreated = 'donation:created',
     SupporterCreated = 'supporter:created',
+    SupporterDeleted = 'supporter:deleted',
 }

@@ -6,6 +6,7 @@ export interface SupporterCreatedEvent {
         id: string;
         userId: string;
         userName: string;
+        userProfileImage: string;
         imageURL: string;
         popcottId: string;
     };

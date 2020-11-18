@@ -6,6 +6,7 @@ export interface PopcottUpdatedEvent {
     data: {
         id: string;
         userId: string;
+        userName: string;
         userProfileImage: string;
         createdAt: Date;
         // endsAt: Date;

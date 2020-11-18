@@ -6,6 +6,7 @@ export interface PopcottCreatedEvent {
     data: {
         id: string;
         userId: string;
+        userProfileImage: string;
         createdAt: Date;
         // endsAt: Date;
         title: string;

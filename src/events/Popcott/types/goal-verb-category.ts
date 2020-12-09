@@ -6,5 +6,6 @@ export enum GoalVerbCategory {
     PeacefulDemonstrationAgainst = 'peaceful demonstration against',
     Promote = 'promote',
     Save = 'save',
+    End = 'end',
     None = 'none',
 };

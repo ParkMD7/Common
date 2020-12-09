@@ -30,6 +30,26 @@ export * from './events/Popcott/supporter-deleted-event';
 export * from './events/Popcott/types/goal-noun-category';
 export * from './events/Popcott/types/goal-verb-category';
 
+export * from './events/Popcott/types/reward-category';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Ticketing App

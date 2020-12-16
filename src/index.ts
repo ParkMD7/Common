@@ -31,7 +31,7 @@ export * from './events/Popcott/supporter-deleted-event';
 // export * from './events/Popcott/types/goal-verb-category';
 export * from './events/Popcott/types/goal-objective';
 
-export * from './events/Popcott/types/reward-category';
+export * from './events/Popcott/types/reward-name';
 
 
 

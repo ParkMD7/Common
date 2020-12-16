@@ -1,4 +1,4 @@
-export enum RewardCategory {
+export enum RewardName {
     PopcottSupporter = 'popcott supporter',
     PopcottLiker = 'popcott liker',
     EcoFriendly = 'eco friendly',

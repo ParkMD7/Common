@@ -18,10 +18,9 @@ export interface PopcottCreatedEvent {
         donations: Array<any>;
         supporters: Array<any>;
         comments: Array<any>;
-        // mad-lib nouns / verbs going forward
         goal: {
             id: string;
-            objective: GoalObjective;
+            objective: GoalObjective; // mad-lib nouns / verbs going forward
         };
         version: number;
     };

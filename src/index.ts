@@ -27,8 +27,9 @@ export * from './events/Popcott/donation-created-event';
 export * from './events/Popcott/supporter-created-event';
 export * from './events/Popcott/supporter-deleted-event';
 
-export * from './events/Popcott/types/goal-noun-category';
-export * from './events/Popcott/types/goal-verb-category';
+// export * from './events/Popcott/types/goal-noun-category';
+// export * from './events/Popcott/types/goal-verb-category';
+export * from './events/Popcott/types/goal-objective';
 
 export * from './events/Popcott/types/reward-category';
 

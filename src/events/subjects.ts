@@ -14,4 +14,5 @@ export enum Subjects {
     DonationCreated = 'donation:created',
     SupporterCreated = 'supporter:created',
     SupporterDeleted = 'supporter:deleted',
+    GoalCreated = 'goal:created'
 }

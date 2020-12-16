@@ -1,4 +1,4 @@
-export enum GoalCategory {
+export enum GoalObjective {
     Boycott = 'boycott',
     FinanciallySupportLocallyOwnedBusinesses = 'financially support locally owned businesses',
     EmotionallySupport = 'emotionally support',

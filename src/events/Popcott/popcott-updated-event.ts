@@ -1,3 +1,4 @@
+import { Goal } from './goal';
 import { Subjects } from '../subjects';
 import { PopcottCategory } from './types/popcott-category';
 
@@ -17,6 +18,7 @@ export interface PopcottUpdatedEvent {
         donations?: Array<any>;
         supporters?: Array<any>;
         comments?: Array<any>;
+        goal: Goal;
         version: number;
     };
 };

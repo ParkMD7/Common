@@ -1,6 +1,6 @@
+import { Goal } from './goal';
 import { Subjects } from '../subjects';
 import { PopcottCategory } from './types/popcott-category';
-import { GoalObjective } from './types/goal-objective';
 
 export interface PopcottCreatedEvent {
     subject: Subjects.PopcottCreated;
@@ -18,10 +18,7 @@ export interface PopcottCreatedEvent {
         donations: Array<any>;
         supporters: Array<any>;
         comments: Array<any>;
-        goal: {
-            id: string;
-            objective: GoalObjective; // mad-lib nouns / verbs going forward
-        };
+        goal: Goal;
         version: number;
     };
 };

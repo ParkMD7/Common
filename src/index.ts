@@ -32,6 +32,8 @@ export * from './events/Popcott/supporter-deleted-event';
 export * from './events/Popcott/types/goal-objective';
 
 export * from './events/Popcott/types/reward-name';
+export * from './events/Popcott/types/reward-amount';
+export * from './events/Popcott/types/reward-badge';
 
 
 

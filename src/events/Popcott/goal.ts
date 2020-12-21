@@ -4,7 +4,7 @@ import { RewardBadge } from './types/reward-badge';
 import { RewardAmount } from './types/reward-amount';
 
 export interface Goal {
-    objective: GoalObjective;
+    objective: GoalObjective; // eventually separate into subject and noun
     description: string;
     reward: {
         name: RewardName,

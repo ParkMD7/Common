@@ -5,4 +5,7 @@ export enum RewardAmount {
     Support1 = '1',
     Support10 = '10',
     Support100 = '100',
+    Donation1 = '1',
+    Donation10 = '10',
+    Donation100 = '100',
 };

@@ -18,7 +18,7 @@ export interface PopcottUpdatedEvent {
         donations?: Array<any>;
         supporters?: Array<any>;
         comments?: Array<any>;
-        goal: Goal;
+        goal?: Goal;
         version: number;
     };
 };

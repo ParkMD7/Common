@@ -1,8 +1,8 @@
 export enum RewardName {
-    PopcottSupporter = 'popcott supporter',
-    PopcottLiker = 'popcott liker',
-    EcoFriendly = 'eco friendly',
-    Ally = 'ally',
-    ConsciousConsumer = 'conscious consumer',
-    NonviolentDemonstrator = 'nonviolent demonstrator',
+    PopcottLiked = 'popcott promoter',
+    PopcottSupported = 'popcott supporter',
+    PopcottDonated = 'popcott donator',
+    PopcottGoalAchieverLikes = 'goal hit: likes',
+    PopcottGoalAchieverSupporters = 'goal hit: supporters',
+    PopcottGoalAchieverDonations = 'goal hit: donations',
 };

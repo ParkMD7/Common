@@ -12,5 +12,4 @@ export enum GoalObjective {
     ReducePlastic = 'reduce plastic consumption',
     ReduceCarbonFootprint = 'reduce carbon footprint',
     ReduceAnimalProductConsumption = 'reduce animal product consumption',
-    None = 'none',
 };

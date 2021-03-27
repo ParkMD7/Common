@@ -1,4 +1,4 @@
-import { Goal } from './goal';
+import { Goal } from './goal-created-event';
 import { Subjects } from '../subjects';
 import { PopcottCategory } from './types/popcott-category';
 

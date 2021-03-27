@@ -29,11 +29,11 @@ export * from './events/Popcott/supporter-deleted-event';
 
 // export * from './events/Popcott/types/goal-noun-category';
 // export * from './events/Popcott/types/goal-verb-category';
-export * from './events/Popcott/goal';
+export * from './events/Popcott/goal-created-event';
 export * from './events/Popcott/goal-target';
 export * from './events/Popcott/types/goal-objective';
 
-export * from './events/Popcott/reward';
+export * from './events/Popcott/reward-created-event';
 export * from './events/Popcott/types/reward-name';
 export * from './events/Popcott/types/reward-amount';
 export * from './events/Popcott/types/reward-badge';

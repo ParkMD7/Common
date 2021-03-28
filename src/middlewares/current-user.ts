@@ -1,11 +1,13 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
+import { Reward } from '../events/Popcott/reward-created-event';
 
 interface UserPayload {
     id: string;
     email: string;
     userName: string;
     userProfileImage: string;
+    rewards: Array<Reward> | [];
 }
 
 // add the currentUser property (which may or may not be defined) to the Request type

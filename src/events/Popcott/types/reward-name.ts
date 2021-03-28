@@ -1,4 +1,5 @@
 export enum RewardName {
+    PopcottCreated = 'popcott creator',
     PopcottLiked = 'popcott promoter',
     PopcottSupported = 'popcott supporter',
     PopcottDonated = 'popcott donator',

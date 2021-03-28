@@ -7,7 +7,6 @@ export interface Reward {
     id: string;
     popcottId: string;
     userId: string;
-    description: string;
     reward: {
         name: RewardName,
         badge: RewardBadge,

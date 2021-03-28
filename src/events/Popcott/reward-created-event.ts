@@ -6,6 +6,7 @@ import { RewardAmount } from './types/reward-amount';
 export interface Reward {
     id: string;
     popcottId: string;
+    userId: string;
     description: string;
     reward: {
         name: RewardName,

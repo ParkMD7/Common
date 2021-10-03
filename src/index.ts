@@ -27,11 +27,12 @@ export * from './events/Popcott/donation-created-event';
 export * from './events/Popcott/supporter-created-event';
 export * from './events/Popcott/supporter-deleted-event';
 
-// export * from './events/Popcott/types/goal-noun-category';
-// export * from './events/Popcott/types/goal-verb-category';
 export * from './events/Popcott/goal-created-event';
 export * from './events/Popcott/goal-target';
 export * from './events/Popcott/types/goal-objective';
+export * from './events/Popcott/types/popcott-goal-action';
+export * from './events/Popcott/types/popcott-goal-entity';
+export * from './events/Popcott/types/popcott-goal-outcome';
 
 export * from './events/Popcott/reward-created-event';
 export * from './events/Popcott/types/reward-name';

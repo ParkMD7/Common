@@ -1,33 +1,9 @@
-export enum GoalObjective {
-    // Boycott = 'boycott',
-    // FinanciallySupportLocallyOwnedBusinesses = 'financially support locally owned businesses',
-    // EmotionallySupport = 'emotionally support',
-    // PeacefulDemonstrationFor = 'peaceful demonstration for black lives matter',
-    // PeacefulDemonstrationAgainst = 'peaceful demonstration against',
-    // SupportBlackLivesMatter = 'support black lives matter',
-    // SaveThePlanet = 'save the planet',
-    // EndSexism = 'end sexism',
-    // EndRacism = 'end racism',
-    // EndAnimalAbuse = 'end animal abuse',
-    // ReducePlastic = 'reduce plastic consumption',
-    // ReduceCarbonFootprint = 'reduce carbon footprint',
-    // ReduceAnimalProductConsumption = 'reduce animal product consumption',
-    Boycott = 'boycott',
-    ShopLocal = 'shop local',
-    SupportABlackOwnedBusiness = 'support a black owned business',
-    SupportABrownOwnedBusiness = 'support a brown owned business',
-    SupportAnAsianOwnedBusiness = 'support an asian owned business',
-    SupportAGayOwnedBusiness = 'support a gay owned business',
-    SupportATransOwnedBusiness = 'support a trans owned business',
-    StopCovid19 = 'stop covid 19',
-    EmotionalSupport = 'emotional support',
-    PoliticalSupport = 'political support',
-    PeacefulDemonstration = 'peaceful demonstration',
-    SupportBlackLivesMatter = 'support black lives matter',
-    FightClimateChange = 'fight climate change',
-    FightForVotingRights = 'fight for voting rights',
-    EndSexism = 'end sexism',
-    EndRacism = 'end racism',
-    EndAnimalAbuse = 'end animal abuse',
-    GoVegan = 'go vegan',
+import { ConstructivePopcottGoalActions, DestructivePopcottGoalActions } from './popcott-goal-action';
+import { ConstructivePopcottGoalEntities, DestructivePopcottGoalEntities } from './popcott-goal-entity';
+import { PopcottGoalOutcomes } from './popcott-goal-outcome';
+
+export interface GoalObjective {
+    PopcottGoalAction: ConstructivePopcottGoalActions | DestructivePopcottGoalActions,
+    PopcottGoalEntity: ConstructivePopcottGoalEntities | DestructivePopcottGoalEntities,
+    PopcottGoalOutcome: PopcottGoalOutcomes,
 };

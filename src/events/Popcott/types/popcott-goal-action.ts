@@ -11,6 +11,7 @@ export enum ConstructivePopcottGoalActions {
     Adopt = 'adopt a',
     WearAMask = 'wear a mask',
     VoteFor = 'vote for',
+    Remember = 'remember',
 };
 
 export enum DestructivePopcottGoalActions {

@@ -20,4 +20,5 @@ export enum DestructivePopcottGoalActions {
     MarchAgainst = 'march against',
     DemonstrateAgainst = 'demonstrate against',
     Delete = 'delete',
+    GetApologyFrom = 'get an apology from',
 };

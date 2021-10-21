@@ -23,4 +23,6 @@ export enum DestructivePopcottGoalEntities {
     Amazon = 'amazon',
     Walmart = 'walmart',
     Kardashians = 'the kardashians',
+    FoxNews = 'fox news',
+    ATT = 'AT&T',
 };

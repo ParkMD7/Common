@@ -1,6 +1,7 @@
 export enum PopcottGoalOutcomes {
     SupportBlackPeople = 'to support black people',
     SupportTransPeople = 'to support trans people',
+    RaiseMoneyForAGoodCause = 'to raise money for a good cause',
     SupportAsianPeople = 'to support asian people',
     SupportBrownPeople = 'to support brown people',
     SupportGayPeople = 'to support gay people',

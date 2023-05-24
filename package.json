@@ -1,5 +1,5 @@
 {
-  "name": "@pmdtickets/common",
+  "name": "@popcott/common",
   "version": "1.0.62",
   "description": "",
   "main": "./build/index.js",

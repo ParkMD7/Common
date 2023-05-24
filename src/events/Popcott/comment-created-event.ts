@@ -1,20 +1,20 @@
-import { Subjects } from '../subjects';
+import { Subjects } from "../subjects";
 
 export interface CommentCreatedEvent {
-    subject: Subjects.CommentCreated;
-    data: {
-        id: string;
-        version: number;
-        userId: string;
-        userName: string;
-        body: string;
-        popcott: {
-            id: string;
-            userId: string;
-            version: number;
-            createdAt: string;
-            title: string;
-            comments: Array<any>;
-        };
+  subject: Subjects.CommentCreated;
+  data: {
+    id: string;
+    version: number;
+    userId: string;
+    userName: string;
+    body: string;
+    popcott: {
+      id: string;
+      userId: string;
+      version: number;
+      createdAt: string;
+      title: string;
+      comments: Array<any>;
     };
-};
+  };
+}

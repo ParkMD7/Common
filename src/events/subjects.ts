@@ -15,3 +15,4 @@ export enum Subjects {
   // Popcott [Rewards]
   RewardCreated = "reward:created",
 }
+
